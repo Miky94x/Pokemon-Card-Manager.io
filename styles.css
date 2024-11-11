@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.view-buttons .btn {
+    margin: 0 10px;
+}
+
+#form-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form input {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.card {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 100%; /* Imposta la larghezza dell'immagine al 100% */
+    height: auto; /* Mantieni le proporzioni */
+    max-height: 150px; /* Imposta un'altezza massima per non renderla troppo grande */
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.list-view {
+    display: block;
+}
+
+.tile-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile-view .card {
+    width: calc(33% - 30px);
+    margin: 15px;
+}
+
+.tile-view .card img {
+    max-width: 100%;
+    height: auto;
+}
